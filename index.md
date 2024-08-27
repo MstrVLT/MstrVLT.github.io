@@ -3,7 +3,9 @@
 layout: home
 
 hero:
-  name: "Custom Firmware Guide "
+  name: "EZ-Fix Hub"
+  text: "Качество в приоритете"
+  tagline: Качество в приоритете
   
 features:
   - icon:
