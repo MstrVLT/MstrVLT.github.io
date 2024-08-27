@@ -4,8 +4,12 @@ layout: home
 
 hero:
   name: "EZ-Fix Hub"
-  text: "Качество в приоритете"
+  
   tagline: Качество в приоритете
+
+::: tip
+Выберите интересующий Вас раздел
+:::
   
 features:
   - title: Switch
