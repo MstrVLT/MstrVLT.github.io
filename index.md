@@ -16,6 +16,7 @@ hero:
 
 features:
   - title: Feature A
+    link: switch
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
