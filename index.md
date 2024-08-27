@@ -9,7 +9,7 @@ hero:
 
 features:
   - icon:
-    src: /switch.png
+      src: /switch.png
     link: switch
     details: Услуги чиповки, прошивки, обслуживания, а также базовая документация для пользователей
   - title: 3DS
