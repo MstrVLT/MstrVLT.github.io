@@ -9,8 +9,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Главная', link: '/' },
-      { text: 'Отзывы', link: '/' }
-      { text: 'Контакты', link: '/' }
+      { text: 'Отзывы', link: '/' },
+      { text: 'Контакты', link: '/' },
       { text: 'Благодарности', link: '/' }
     ],
 
