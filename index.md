@@ -7,11 +7,6 @@ hero:
   
   tagline: Качество в приоритете
 
----
-::: 
-text: Выберите интересующий Вас раздел
-:::
-
 features:
   - title: Switch
     icon:
