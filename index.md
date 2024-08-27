@@ -8,7 +8,8 @@ hero:
   tagline: Качество в приоритете
   
 features:
-  - icon:
+  - title: Switch
+    icon:
       src: /switch.png
     link: switch
     details: Услуги чиповки, прошивки, обслуживания, а также базовая документация для пользователей
