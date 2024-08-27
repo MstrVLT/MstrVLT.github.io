@@ -2,14 +2,16 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Custom Firmware Guide ",
-  description: "A VitePress Site",
+  title: "EZ-Fix Hub",
+  description: "A VitePress Site ????",
   base: '/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Главная', link: '/' },
+      { text: 'Отзывы', link: '/' }
+      { text: 'Контакты', link: '/' }
+      { text: 'Благодарности', link: '/' }
     ],
 
     sidebar: [
