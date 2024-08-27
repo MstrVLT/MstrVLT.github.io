@@ -2,6 +2,9 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+hero:
+  name: "Custom Firmware Guide "
+  
 features:
   - icon:
       src: /switch.png
