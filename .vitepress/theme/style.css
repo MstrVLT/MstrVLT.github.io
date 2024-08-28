@@ -118,6 +118,10 @@
   }
 }
 
+.VPNavBar.home .title{
+  display: none !important;
+}
+
 /**
  * Component: Custom Block
  * -------------------------------------------------------------------------- */
