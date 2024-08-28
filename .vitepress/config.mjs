@@ -7,6 +7,7 @@ export default defineConfig({
   base: '/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    siteTitle: false,
     nav: [
       { text: 'Главная', link: '/' },
       { text: 'Отзывы', link: '/' },
