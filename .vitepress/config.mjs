@@ -14,15 +14,33 @@ export default defineConfig({
       { text: 'Благодарности', link: '/' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      // This sidebar gets displayed when a user
+      // is on `guide` directory.
+      '/switch/': [
+        {
+          text: 'Switch Guide',
+          items: [
+            { text: 'Index', link: '/guide/' },
+            { text: 'One', link: '/guide/one' },
+            { text: 'Two', link: '/guide/two' }
+          ]
+        }
+      ],
+
+      // This sidebar gets displayed when a user
+      // is on `config` directory.
+      '/3ds/': [
+        {
+          text: '3ds Guide',
+          items: [
+            { text: 'Index', link: '/config/' },
+            { text: 'Three', link: '/config/three' },
+            { text: 'Four', link: '/config/four' }
+          ]
+        }
+      ]
+    }
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
