@@ -3,8 +3,8 @@
     "vitepress": "^1.3.4"
   },
   "scripts": {
-    "docs:dev": "vitepress dev Pages",
-    "docs:build": "vitepress build Pages",
-    "docs:preview": "vitepress preview Pages"
+    "docs:dev": "vitepress dev pages",
+    "docs:build": "vitepress build pages",
+    "docs:preview": "vitepress preview pages"
   }
 }
