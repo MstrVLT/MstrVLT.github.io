@@ -8,7 +8,7 @@ const { Layout } = DefaultTheme
   <Layout>
     <template #home-hero-after>
         <div class="EZInfo">
-            <div style="margin: auto; max-width: 1152px; margin-bottom: 12px; text-align: center;" class="tip custom-block"><p class="custom-block-title">Выберите интересующий Вас раздел</p><p></p></div>
+            <div style="margin: auto; max-width: 1152px; text-align: center;" class="tip custom-block mb-6"><p class="custom-block-title">Выберите интересующий Вас раздел</p><p></p></div>
         </div>
     </template>
   </Layout>
