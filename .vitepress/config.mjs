@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    siteTitle: false,
+    // siteTitle: false,
     nav: [
       { text: 'Главная', link: '/' },
       { text: 'Отзывы', link: '/' },
@@ -43,8 +43,8 @@ export default defineConfig({
       ]
     },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    // ]
   }
 })
