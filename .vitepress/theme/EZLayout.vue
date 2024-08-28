@@ -15,6 +15,22 @@ const { Layout } = DefaultTheme
 </template>
 
 <style>
+.VPHero {
+  padding: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + 8px) 24px 48px !important;
+}
+
+@media (min-width: 640px) {
+  .VPHero {
+    padding: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + 20px) 48px 64px !important;
+  }
+}
+
+@media (min-width: 960px) {
+  .VPHero {
+    padding: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + 20px) 64px 64px !important;
+  }
+}
+  
 .VPHero.VPHomeHero .container {
     justify-content: center;
 }
