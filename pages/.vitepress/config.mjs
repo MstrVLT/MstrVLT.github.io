@@ -11,7 +11,7 @@ export default defineConfig({
     nav: [
       { text: 'Главная', link: '/' },
       { text: 'Отзывы', link: '/' },
-      { text: 'Контакты', link: '/Pages/contacts/contacts.md' },
+      { text: 'Контакты', link: '/pages/contacts/contacts.md' },
       { text: 'Благодарности', link: '/' }
     ],
 
