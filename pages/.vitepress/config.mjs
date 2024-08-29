@@ -20,11 +20,13 @@ export default defineConfig({
       // is on `guide` directory.
       '/switch/': [
         {
-          text: 'Switch Guide',
+          text: 'Nintendo Switch',
           items: [
-            { text: 'Index', link: '/guide/' },
-            { text: 'One', link: '/guide/one' },
-            { text: 'Two', link: '/guide/two' }
+            { text: 'Услуги', link: '/guide/' },
+            { text: 'Глоссарий', link: '/guide/one' },
+            { text: 'Установка игр', link: '/guide/two' },
+            { text: 'Резервное копирование сохранений', link: '/guide/one' },
+            { text: 'Безопасное обновление прошивки', link: '/guide/one' }
           ]
         }
       ],
@@ -35,9 +37,10 @@ export default defineConfig({
         {
           text: '3ds Guide',
           items: [
-            { text: 'Index', link: '/config/' },
-            { text: 'Three', link: '/config/three' },
-            { text: 'Four', link: '/config/four' }
+            { text: 'Услуги', link: '/config/' },
+            { text: 'Установка игр', link: '/config/three' },
+            { text: 'Резервное копирование сохранений', link: '/config/four' },
+            { text: 'Безопасное обновление прошивки', link: '/guide/one' }
           ]
         }
       ]
