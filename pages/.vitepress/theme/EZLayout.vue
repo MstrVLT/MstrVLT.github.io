@@ -75,4 +75,31 @@ article img {
     width: 256px;
 }
 
+.VPFeature article .title {
+  overflow: hidden;
+  text-align: center;
+}
+
+.VPFeature article .title::before,
+.VPFeature article .title::after {
+  background-color: var(--vp-c-text-2);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+  opacity: 0.4;
+}
+
+.VPFeature article .title::before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.VPFeature article .title::after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
 </style>

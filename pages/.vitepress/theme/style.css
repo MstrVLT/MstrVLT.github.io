@@ -46,6 +46,7 @@
  @tailwind components;
  @tailwind utilities;
  
+ 
  :root {
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
@@ -134,6 +135,12 @@
   --vp-custom-block-tip-text: var(--vp-c-text-1);
   --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
+}
+
+@layer components {
+  .ez-social-links {
+    @apply text-[color:var(--vp-c-text-1)] hover:text-[color:var(--vp-c-brand-1)]
+  }
 }
 
 /**
