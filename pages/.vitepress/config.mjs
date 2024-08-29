@@ -9,10 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     // siteTitle: false,
     nav: [
-      { text: 'Главная', link: '/' },
-      { text: 'Отзывы', link: '/' },
-      { text: 'Контакты', link: '/contacts' },
-      { text: 'Благодарности', link: '/' }
+      { component: 'EZSocialContactsComponent' },
     ],
 
     sidebar: {
