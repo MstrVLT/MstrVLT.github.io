@@ -57,19 +57,7 @@ export default defineConfig({
         }
       ],
 
-    '/dsi/': [
-        {
-          text: 'Nintendo DSi',
-          items: [
-            { text: 'Услуги', link: '/guide/' },
-            { text: 'FAQ', link: '/guide/one' },
-            { text: 'Установка игр', link: '/guide/two' },
-            { text: 'Резервное копирование сохранений', link: '/guide/one' }
-          ]
-        }
-      ],
-
-      '/dsi/': [
+     '/dsi/': [
         {
           text: 'Nintendo DSi',
           items: [
