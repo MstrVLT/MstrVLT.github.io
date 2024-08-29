@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "EZ-Fix Hub",
-  description: "A VitePress Site ????",
+  description: "A VitePress Site",
   base: '/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -20,11 +20,14 @@ export default defineConfig({
       // is on `guide` directory.
       '/switch/': [
         {
-          text: 'Switch Guide',
+          text: 'Nintendo Switch',
           items: [
-            { text: 'Index', link: '/guide/' },
-            { text: 'One', link: '/guide/one' },
-            { text: 'Two', link: '/guide/two' }
+            { text: 'Услуги', link: '/guide/' },
+            { text: 'Глоссарий', link: '/guide/one' },
+            { text: 'FAQ', link: '/guide/one' },
+            { text: 'Установка игр', link: '/guide/two' },
+            { text: 'Резервное копирование сохранений', link: '/guide/one' },
+            { text: 'Безопасное обновление', link: '/guide/one' }
           ]
         }
       ],
@@ -33,16 +36,92 @@ export default defineConfig({
       // is on `config` directory.
       '/3ds/': [
         {
-          text: '3ds Guide',
+          text: 'Nintendo 3DS',
           items: [
-            { text: 'Index', link: '/config/' },
-            { text: 'Three', link: '/config/three' },
-            { text: 'Four', link: '/config/four' }
+            { text: 'Услуги', link: '/config/' },
+            { text: 'Установка игр', link: '/config/three' },
+            { text: 'Резервное копирование сохранений', link: '/config/four' }
           ]
         }
-      ]
-    },
+      ],
+    
+    '/wiiu/': [
+        {
+          text: 'Nintendo Wii U',
+          items: [
+            { text: 'Услуги', link: '/guide/' },
+            { text: 'FAQ', link: '/guide/one' },
+            { text: 'Установка игр', link: '/guide/two' },
+            { text: 'Резервное копирование сохранений', link: '/guide/one' }
+          ]
+        }
+      ],
 
+     '/dsi/': [
+        {
+          text: 'Nintendo DSi',
+          items: [
+            { text: 'Услуги', link: '/guide/' },
+            { text: 'FAQ', link: '/guide/one' },
+            { text: 'Установка игр и DSiWare приложений', link: '/guide/two' }
+          ]
+        }
+      ],
+
+      '/vita/': [
+        {
+          text: 'Playstation Vita/TV',
+          items: [
+            { text: 'Услуги', link: '/guide/' },
+            { text: 'FAQ', link: '/guide/one' },
+            { text: 'Полезные ссылки', link: '/guide/two' }
+          ]
+        }
+      ],
+
+      '/psp/': [
+        {
+          text: 'Playstation Portable',
+          items: [
+            { text: 'Услуги', link: '/guide/' },
+            { text: 'FAQ', link: '/guide/one' },
+            { text: 'Полезные ссылки', link: '/guide/two' }
+          ]
+        }
+      ],
+
+      '/steam deck/': [
+        {
+          text: 'Steam Deck',
+          items: [
+            { text: 'Услуги', link: '/guide/' },
+            { text: 'FAQ', link: '/guide/one' }
+           ]
+        }
+      ],
+
+      '/g&w/': [
+        {
+          text: 'Game and Watch (2021)',
+          items: [
+            { text: 'Услуги', link: '/guide/' },
+            { text: 'FAQ', link: '/guide/one' },
+            { text: 'Полезные ссылки', link: '/guide/two' }
+          ]
+        }
+      ],
+
+      '/gamepads/': [
+        {
+          text: 'Геймпады',
+          items: [
+            { text: 'Услуги', link: '/guide/' },
+            { text: 'FAQ', link: '/guide/one' },
+            { text: 'Полезные ссылки', link: '/guide/two' }
+          ]
+        }
+      ],
+    }
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
