@@ -71,8 +71,8 @@ const { Layout } = DefaultTheme
 }
 
 article img {
-    aspect-ratio: auto 128 / 128;
-    width: 128px;
+    aspect-ratio: auto 256 / 256;
+    width: 256px;
 }
 
 </style>
