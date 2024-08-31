@@ -7,11 +7,11 @@ export default defineConfig({
   base: '/',
   markdown: {
     container: {
-      tipLabel: '',
-      warningLabel: '',
-      dangerLabel: '',
-      infoLabel: '',
-      detailsLabel: ''
+      tipLabel: ' ',
+      warningLabel: ' ',
+      dangerLabel: ' ',
+      infoLabel: ' ',
+      detailsLabel: ' '
     }
   },
   themeConfig: {
