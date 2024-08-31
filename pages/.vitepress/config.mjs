@@ -5,6 +5,15 @@ export default defineConfig({
   title: "EZ-Fix Hub",
   description: " ",
   base: '/',
+  markdown: {
+    container: {
+      tipLabel: '',
+      warningLabel: '',
+      dangerLabel: '',
+      infoLabel: '',
+      detailsLabel: ''
+    }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // siteTitle: false,
