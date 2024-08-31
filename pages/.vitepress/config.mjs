@@ -20,8 +20,8 @@ export default defineConfig({
           text: 'Nintendo Switch',
           items: [
             { text: 'Услуги', link: '/guide/' },
-            { text: 'Глоссарий', link: '/guide/one' },
-            { text: 'FAQ', link: '/guide/one' },
+            { text: 'Глоссарий', link: '/pages/switch/sw_glossary' },
+            { text: 'FAQ', link: '/pages/switch/sw_faq' },
             { text: 'Установка игр', link: '/guide/two' },
             { text: 'Резервное копирование сохранений', link: '/guide/one' },
             { text: 'Безопасное обновление', link: '/guide/one' }
