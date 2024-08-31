@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "EZ-Fix Hub",
-  description: "A VitePress Site",
+  description: "",
   base: '/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
