@@ -28,7 +28,7 @@ export default defineConfig({
         {
           text: 'Nintendo Switch',
           items: [
-            { text: 'Услуги', link: '/guide/' },
+            { text: 'Услуги - не работает', link: '/guide/' },
             { text: 'Глоссарий', link: '/switch/sw_glossary' },
             { text: 'FAQ', link: '/switch/sw_faq' },
             { text: 'Установка игр', link: '/guide/two' },
